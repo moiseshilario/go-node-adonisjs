@@ -4,6 +4,7 @@ class User {
   get validateAll () {
     return true
   }
+
   get rules () {
     return {
       username: 'required|unique:users',
